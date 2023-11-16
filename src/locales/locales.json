@@ -1,0 +1,18 @@
+{
+    "ge":{
+        "amazon":"ამაზონი",
+        "main":"მთავარი",
+        "aboutUs":"ჩვენს შესახებ",
+        "contact": "კონტაქტი",
+        "cart":"კალათა"
+    },
+    "en":{
+        "amazon":"amazon",
+        "main":"main",
+        "aboutUs":"about us",
+        "contact": "contact",
+        "cart":"Cart"
+
+    }
+
+}
