@@ -1,7 +1,7 @@
 <template>
- <section >
+ <section style="background-color: #f6fff7;">
         <div class="container-fluid">
-            <div class="row mt-3">
+            <div class="row mt-0">
                 <CategoryComponent/>
 
 

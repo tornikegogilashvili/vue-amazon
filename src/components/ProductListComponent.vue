@@ -1,17 +1,17 @@
 <template>
 
 
-<div class="col-12 col-lg-9">
+<div  class="col-12 col-lg-9">
 
 <div class="row" v-if="products.length>0">
 
     <div v-for="product in products" :key="product.id" class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="card">
+        <div class="card" style="background-color: #f6fff7; border: none; box-shadow: 1px 0px 10px #555d55;" >
             <img :src="product.thumbnail" class="card-img-top"  style="height: 200px;">
             <div class="card-body">
               <h5 class="card-title">{{ product.title }}</h5>
               <p class="card-text">{{ product.description.length>43?product.description.slice(0,43)+'...':product.description }}</p>
-              <router-link :to="'/productFull/'+product.id" class="btn btn-primary">დაწვრილდებით</router-link>
+              <router-link :to="'/productFull/'+product.id" class="btn btn-primary">{{ $t("read more") }}</router-link>
             </div>
           </div> 
     </div>

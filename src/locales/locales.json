@@ -4,14 +4,29 @@
         "main":"მთავარი",
         "aboutUs":"ჩვენს შესახებ",
         "contact": "კონტაქტი",
-        "cart":"კალათა"
+        "cart":"კალათა",
+        "category": "კატეგორიები",
+        "read more":"დაწვრილებით",
+        "subscribe":"გამოიწერე",
+        "Links":"სწრაფი ლინკები",
+        "ABOUT US":"ჩვენ შესახებ",
+        "Contact":"კონტაქტი",
+        "Jano Bagrationi's 6":"ჯანო ბაგრატიონის 6"
+
     },
     "en":{
-        "amazon":"amazon",
-        "main":"main",
-        "aboutUs":"about us",
-        "contact": "contact",
-        "cart":"Cart"
+        "amazon":"AMAZON",
+        "main":"MAIN",
+        "aboutUs":"ABOUT US",
+        "contact": "CONTACT",
+        "cart":"CART",
+        "category":"CATEGORY",
+        "read more":"Read More",
+        "subscribe":"Subscribe",
+        "Links":"Links",
+        "ABOUT US":"About Us",
+        "Contact":"Contact",
+        "Jano Bagrationi's 6":"Jano Bagrationi's 6"
 
     }
 

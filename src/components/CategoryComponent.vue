@@ -3,11 +3,11 @@
 
 <div class="w-100 border border-success-subtle rounded shadow p-2">
 
-    <h4 class="text-center">კატეგორიები</h4>
+    <h4 class="text-center">{{ $t('category') }}</h4>
 
     <ul v-if="categories.length>0" class="list-unstyled d-flex flex-wrap justify-content-around d-lg-block">
-        <li class="my-2 d-grid" v-for="(category,i) in categories" :key="i" >
-            <router-link class="btn btn-outline-info text-decoration-none text-dark" :to="'/'+category">{{ category }}</router-link>
+        <li style="background-color: #dee6df;" class="my-2 d-grid category-btn" v-for="(category,i) in categories" :key="i" >
+            <router-link class="btn  text-decoration-none text-dark category-btn" :to="'/'+category">{{ category }}</router-link>
         </li> 
 
     </ul>
@@ -56,3 +56,9 @@ export default{
 }
 
 </script>
+
+<style>
+    .category-btn:hover{
+        background-color: #e16464;
+    }
+</style>

@@ -1,7 +1,9 @@
 <template>
-      <nav class="navbar navbar-expand-lg sticky-top w-100 ">
+      <nav style="background-color: #f6fff7; " class="navbar navbar-expand-lg sticky-top w-100 ">
         <div class="container-fluid">
-          <router-link class="navbar-brand" to="/">{{ $t('amazon') }}</router-link>
+          <router-link class="navbar-brand" to="/">
+            <img style="width: 50px;" src="https://logos-download.com/wp-content/uploads/2022/12/Vue.js_Logo.png" alt="vue">
+          </router-link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

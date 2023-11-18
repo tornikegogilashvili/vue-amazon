@@ -7,13 +7,13 @@
     <div class="row justify-content-center align-items-center">
 
         <div class="col-12 col-md-6 col-lg-4 mt-3">
-            <h5>სწრაფი ლინკები</h5>
+            <h5>{{ $t("Links") }}</h5>
             <ul class="list-unstyled">
                 <li>
-                    <router-link class="text-decoration-none text-light" to="/aboutus">ჩვენ შესახებ</router-link>
+                    <router-link class="text-decoration-none text-light" to="/aboutus">{{ $t("ABOUT US") }}</router-link>
                 </li>
                 <li>
-                    <router-link class="text-decoration-none text-light" to="/contact">კონტაქტი</router-link>
+                    <router-link class="text-decoration-none text-light" to="/contact">{{ $t("Contact") }}</router-link>
                 </li>
 
             </ul>
@@ -31,7 +31,7 @@
             <ul class="list-unstyled">
                 <li>
                     <i class="bi bi-geo-alt-fill"></i>
-                    ჯანო ბაგრატიონის 6
+                    {{ $t("Jano Bagrationi's 6") }}
                 </li>
                 <li>
                     <i class="bi bi-envelope-fill"></i>

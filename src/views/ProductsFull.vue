@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
-        <div class="row m-4" v-if="product">
-            <div class="col-12 col-md-6 col-lg-4">
+    <div  class="container">
+        <div  class="row m-4" v-if="product">
+            <div style="background-color: #f6fff7;" class="col-12 col-md-6 col-lg-4">
 
                     <img :src="product.thumbnail"  class="img-fluid"/>
 
@@ -20,7 +20,7 @@
                         <div class="col-8">
                             <input type="number" min="0" v-model="productCount" class="form-control"/>
                         </div>
-                        <div class="col-4">
+                        <div style="margin-bottom: 200px;" class="col-4">
                             <button :disabled="productCount==0" class="btn btn-success" @click="addToCart()">დამატება</button>
                         </div>
                     </div>
