@@ -17,7 +17,7 @@ export default createStore({
 
       state.searchWord=word
 // დისპაჩიდან იძახებს setSearchWord() ფუნქციას და უტოლებს
-//  search-ში (VAL-ში გამოტანებულ) ჩაწერილ მნიშვნელობას.
+//  search-ში (VAL-ში გამოტანებულ) ჩაწერილ მნიშვნელობას. 
     },
     changeLang({state}, lang){
       state.language = lang;
