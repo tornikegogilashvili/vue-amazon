@@ -6,8 +6,8 @@
     <h4 class="text-center">{{ $t('category') }}</h4>
 
     <ul v-if="categories.length>0" class="list-unstyled d-flex flex-wrap justify-content-around d-lg-block">
-        <li style="background-color: #dee6df;" class="my-2 d-grid category-btn" v-for="(category,i) in categories" :key="i" >
-            <router-link class="btn  text-decoration-none text-dark category-btn" :to="'/'+category">{{ category }}</router-link>
+        <li style="background-color: #dee6df; border-radius: 5px;" class="my-2 d-grid category-btn" v-for="(category,i) in categories" :key="i" >
+            <router-link class="btn  text-decoration-none text-dark category-btn" :to="'/'+category">{{ category.toUpperCase() }}</router-link>
         </li> 
 
     </ul>

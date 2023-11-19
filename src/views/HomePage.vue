@@ -1,5 +1,5 @@
 <template>
- <section style="background-color: #f6fff7;">
+ <section style="background-color: #f6fff7; " class="mt-2">
         <div class="container-fluid">
             <div class="row mt-0">
                 <CategoryComponent/>
