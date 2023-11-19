@@ -21,7 +21,7 @@
                             <input type="number" min="0" v-model="productCount" class="form-control"/>
                         </div>
                         <div style="margin-bottom: 200px;" class="col-4">
-                            <button :disabled="productCount==0" class="btn btn-success" @click="addToCart()">დამატება</button>
+                            <button :disabled="productCount==0" class="btn btn-success" @click="addToCart()">{{ $t("damateba") }}</button>
                         </div>
                     </div>
 

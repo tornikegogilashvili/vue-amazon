@@ -70,7 +70,7 @@ export default{
                 return ob.id==productID
             })
 
-            if(changebleProduct.productCount>1){
+            if(changebleProduct.productCount>=1){
             if(action=='decrease'){
 
                 changebleProduct.productCount--
