@@ -59,6 +59,6 @@ export default{
 
 <style>
     .category-btn:hover{
-        background-color: #e16464;
+        background-color: #2956fc;
     }
 </style>
