@@ -1,7 +1,7 @@
 {
     "ge":{
         "amazon":"ამაზონი",
-        "main":"მთავარი",
+        "HOME":"მთავარი",
         "aboutUs":"ჩვენს შესახებ",
         "contact": "კონტაქტი",
         "cart":"კალათა",
@@ -17,7 +17,7 @@
     },
     "en":{
         "amazon":"AMAZON",
-        "main":"MAIN",
+        "HOME":"HOME",
         "aboutUs":"ABOUT US",
         "contact": "CONTACT",
         "cart":"CART",
