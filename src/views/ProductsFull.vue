@@ -4,16 +4,16 @@
             <div style="background-color: #f6fff7;" class="col-12 col-md-6 col-lg-4">
 
                     <img :src="product.thumbnail"  class="img-fluid"/>
-
+                    <div class="col-6 pt-3" v-for="image in product.images">
+                        <img :src="image" class="img-fluid"/>
+                    </div>
             </div>
             <div class="col-12 col-md-6 col-lg-8">
                 <p class="h1">{{ product.title }} {{ product.brand }}</p>
-                <p>{{ product.description }}</p>
-                <p>{{ product.price }} $</p>
+                <p class="mt-4" style="width: 350px;"><strong>Description:</strong> {{ product.description }}</p>
+                <p><strong>Price:</strong>{{ product.price }} $</p>
                 <div class="row">
-                    <div class="col-3" v-for="image in product.images">
-                        <img :src="image" class="img-fluid"/>
-                    </div>
+                    
                 </div>
 
                     <div class="row mt-3">
