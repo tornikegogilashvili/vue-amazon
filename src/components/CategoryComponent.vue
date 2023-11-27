@@ -57,9 +57,9 @@ export default{
 
 </script>
 
-<style>
+<!-- <style>
     .category-btn:hover{
         border-radius: 20px;
         background-color: #cccdcf;
     }
-</style>
+</style> -->
